@@ -1,0 +1,121 @@
+
+WORKFORCE ANALYTICS & EMPLOYEE SATISFACTION
+ST1510 Programming for Data Analytics — CA2
+Singapore Polytechnic
+==================================================
+
+PROJECT OVERVIEW
+
+This project investigates relationships between
+education, employment outcomes, income patterns,
+and workplace satisfaction using three datasets.
+
+Analysis tools: Python, pandas, NumPy,
+Matplotlib, Seaborn, and Jupyter Notebook.
+Automation platform: UiPath Studio.
+
+
+1. GRADUATE EMPLOYMENT SURVEY
+--------------------------------------------------
+
+The cleaned graduate employment dataset contains
+4,656 records.
+
+Average overall employment rate: 91.76%
+Average full-time permanent employment rate: 81.95%
+Mean of reported programme-level median salaries:
+SGD 3,584.05
+
+Key observations:
+- Starting salaries vary across schools and fields.
+- Computing, law and medicine-related groups
+  generally show stronger salary outcomes.
+- Employment rates and permanent employment
+  rates differ across degree fields.
+
+
+2. MOM LABOUR FORCE ANALYSIS
+--------------------------------------------------
+
+Key observations:
+- Managers and administrators have comparatively
+  high median monthly incomes.
+- Cleaners, labourers and related workers have
+  comparatively low median monthly incomes.
+- Gender differences are visible across occupations.
+- Degree holders generally earn higher median
+  incomes than lower qualification groups.
+- Income patterns vary across age and qualification.
+
+These findings are descriptive and do not establish
+causal relationships.
+
+
+3. GLASSDOOR EMPLOYEE SATISFACTION
+--------------------------------------------------
+
+Records analysed: 838,566
+
+Average overall satisfaction:
+Current employees: 3.81 / 5
+Former employees: 3.44 / 5
+
+Average senior management satisfaction:
+Current employees: 3.29 / 5
+Former employees: 2.94 / 5
+
+CORRELATION WITH OVERALL RATING
+
+Senior management:       0.6843
+Career opportunities:    0.6610
+Compensation & benefits: 0.5467
+Work-life balance:       0.5217
+Employee recommendation: 0.6276
+
+Key findings:
+- Current employees generally report higher
+  satisfaction than former employees.
+- Senior management and career opportunities show
+  relatively strong positive correlations with
+  overall satisfaction.
+- Employees with higher satisfaction ratings are
+  more likely to recommend their workplace.
+- Correlation does not imply causation.
+
+
+4. AUTOMATION COMPONENT
+--------------------------------------------------
+
+UiPath workflow components:
+
+Download Dataset.xaml
+- Interacts with browser download controls
+  for Kaggle and MOM statistical resources.
+
+Reporting.xaml
+- Starts the Python graph-generation script.
+- Reads report.txt.
+- Displays report text in a message box.
+- Contains an Outlook desktop email activity.
+
+The current workflow requires local paths and
+email configuration before it can be reused.
+
+
+5. CONCLUSION
+--------------------------------------------------
+
+Education and employment characteristics are
+associated with differences in income and
+employment outcomes.
+
+Workplace satisfaction is positively associated
+with perceptions of management, career development,
+and employee recommendation behaviour.
+
+The project demonstrates practical experience in
+data preprocessing, exploratory data analysis,
+statistical visualisation, and RPA workflow design.
+
+==================================================
+END OF REPORT
